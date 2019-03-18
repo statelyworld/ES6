@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>    
+const person=
+{
+    name:"Gaurav Joshi",
+    company:"Stately World",
+    course:"Javascript",
+    website:"www.statelyworld.com"
+}
+
+    const template=`
+    <ol>
+    <li>${person.name}</li>
+    <li>${person.company}</li>
+    <li>${person.course}</li>
+    <li>${person.website}</li>   
+</ol>
+`;
+
+document.body.innerHTML=template;
+    </script>
+</body>
+</html>
